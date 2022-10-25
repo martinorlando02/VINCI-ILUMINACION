@@ -17,10 +17,12 @@ body{
     justify-content: center;
     align-items: center; ;
 }
-
-.slide {
-    margin top: 10px;
+footer {
+    display: inline-block;
+    text-align: center;
+    line-height: 3;
+    width: 100%;
 }
-.slide {
-    height: 65vh;
+main {
+    min-height: 100vh
 }
