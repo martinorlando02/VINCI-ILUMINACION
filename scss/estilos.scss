@@ -1,28 +1,29 @@
+@import "variables";
 body{
     margin: 0;
     padding: 0;
 }
-.color-fondo {
-    background-color: #716040;
+.color-fondo{
+    background-color: $color_fondo;
 }
-.fondo-imagen {
+.fondo-imagen{
     background-image: url(../images/lampara5.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height:100vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     font-size: 40px;
     display: flex;
     justify-content: center;
-    align-items: center; ;
+    align-items: center;
 }
-footer {
+footer{
     display: inline-block;
     text-align: center;
     line-height: 3;
     width: 100%;
 }
-main {
-    min-height: 100vh
+main{
+    min-height: 100vh;
 }
