@@ -1,7 +1,8 @@
 @import "variables";
-body{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .color-fondo{
     background-color: $color_fondo;
@@ -26,4 +27,22 @@ footer{
 }
 main{
     min-height: 100vh;
+    width: 100%;
 }
+.img-fondo {
+    height: 100vh;
+}
+.img-resolucion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+.img-carrousel{
+    width: 200px;
+    height: 500px;
+}
+
+
